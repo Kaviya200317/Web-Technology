@@ -1,0 +1,58 @@
+
+
+body{
+    background: linear-gradient(to right ,rgb(32, 78, 134),rgb(66, 115, 156),rgb(28, 99, 175));
+}
+#form{
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border:2px solid rgb(32, 78, 134);
+    padding:30px;
+}
+.regis{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(32, 78, 134);
+}
+#form button{
+    padding: 20px;
+    background-color:rgb(28, 99, 175);
+    border-radius: 5px;
+    color:white;
+    width:100%;
+    margin:10px;
+    border:2px solid rgb(28, 99, 175) ;
+    font-size: large;
+    cursor:pointer;
+}
+.input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+    cursor:pointer;
+}
+.input-group input{
+    margin-top:5px;
+    border-radius: 5px;
+    padding: 10px;
+    border-color:rgb(28, 99, 175);
+    border:2px solid rgb(28, 99, 175);
+}
+.input-group input:focus{
+    outline:0;    
+}
+.error{
+    color:red;
+    font-size: 16px;
+    margin-top:5px;
+}
+.input-group.success input{
+    border-color: green;
+    border:2px solid green;
+}
+.input-group.error input{
+    border-color: red;
+}
