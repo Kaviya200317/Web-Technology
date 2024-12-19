@@ -1,0 +1,101 @@
+
+        .body{
+            background-color:rgb(211, 149, 149);
+        }
+        
+        
+        .header-1{
+            height:80px;
+            background-color:#525B44;
+            color:rgb(255, 255, 255);
+            padding-left:300px;
+            font-family:sans-serif;
+            padding-left: 600px;
+            padding-top:1px;
+        
+        }
+        .nav-bar a{
+            float:right;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+            color:#000000;
+            font-weight: bolder;
+            
+
+        }
+        .nav-bar a:hover{
+            color:rgb(255, 255, 255);
+            
+
+        }
+        .nav-bar{
+            background-color:#85A98F;
+            overflow:hidden;
+
+        }
+        .search-bar{
+            padding:2px 5px 5px 5px;
+            margin-top:10px;
+            margin-left:50px;
+            width:400px;
+            font-weight: bold;
+            color:#000000;
+    
+        }
+        .book-1{
+            height:450px;
+            width:200px;
+            border: 2px solid black;
+           padding:5px;
+           margin-top:50px;
+           display:flex;
+           flex-direction: row;
+           
+           margin-left:50px;
+           margin-right: 50px;
+        
+                   }
+        .content-box{
+            padding-left: 5px;
+        }
+        
+        
+
+        
+        .books{
+            display:flex;
+            flex-direction: row;
+            
+        }
+        .img{
+            height:250px;
+            width:170px;
+        
+
+        }
+        .header{
+            padding-left:25px;
+            height: 160px;
+            background-color: #D3F1DF;
+        }
+        .books{
+            display:flex;
+            flex-direction: row;
+            flex:1fr;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .submit{
+            height: 30px;
+            width:130px;
+            border-radius: 10px;
+            border-color: rgb(211, 170, 170);
+            border-width: 3px;
+        }
+        .submit :hover{
+          background-color: #333;
+        
+        }
